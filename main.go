@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/dowonh9599/go-basics/6_dictionary"
-	"github.com/dowonh9599/go-basics/7_goroutineAndChannel"
+	"github.com/dowonh9599/go-basics/GO_E2_dictionary"
+	"github.com/dowonh9599/go-basics/GO_T5_goroutineAndChannel"
 )
 
 func main() {
