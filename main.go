@@ -2,14 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/dowonh9599/go-basics/GO_E2_dictionary"
+	dict "github.com/dowonh9599/go-basics/GO_E2_dictionary"
 	"github.com/dowonh9599/go-basics/GO_T5_goroutineAndChannel"
 )
 
-func main() {
-	// exercise 1 banking
-
-	// exercise 2 Dictionary
+// Go-Exercise 2: Dictionary main function
+func dictMain() {
 	dictionary := dict.CreateDictionary()
 	addAppleErr := dictionary.Add("apple", "the round fruit of a tree of the rose family, which typically has thin green or red skin and crisp flesh.")
 	if addAppleErr != nil {
@@ -28,7 +26,10 @@ func main() {
 		fmt.Println(errDeleteBanana)
 	}
 	dictionary.PrintDictionary(dictionary)
+}
 
+// Go-Topic 5: Go Routine and Channel Main
+func goroutineAndChannelMain() {
 	// goroutineAndChannel exercise
 	goroutineAndChannel.TestGoroutine(false)
 	goroutineAndChannel.TestChannel()
@@ -36,5 +37,9 @@ func main() {
 	// Compare the processing speed of URLChecker handling 10 URL checks using / not using goroutine
 	goroutineAndChannel.TestURLChecker()
 	goroutineAndChannel.TestURLCheckerWithGoroutine()
+}
 
+func main() {
+	//dictMain()
+	goroutineAndChannelMain()
 }
