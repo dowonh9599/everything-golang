@@ -30,4 +30,4 @@
   * [8. All Other CRUDs (Optional)](gin-gonic/topic-1-backend-guide-with-gin-gorm-and-postgres/8.-all-other-cruds-optional.md)
   * [9. Using Static Route](gin-gonic/topic-1-backend-guide-with-gin-gorm-and-postgres/9.-using-static-route.md)
   * [10. Middleware AUTH](gin-gonic/topic-1-backend-guide-with-gin-gorm-and-postgres/10.-middleware-auth.md)
-  * [11. JWT](gin-gonic/topic-1-backend-guide-with-gin-gorm-and-postgres/11.-jwt.md)
+  * [11. JWT Part 1: Login](gin-gonic/topic-1-backend-guide-with-gin-gorm-and-postgres/11.-jwt-part-1-login.md)
