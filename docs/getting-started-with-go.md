@@ -1,6 +1,0 @@
-# Getting Started with Go
-
-##
-
-
-
