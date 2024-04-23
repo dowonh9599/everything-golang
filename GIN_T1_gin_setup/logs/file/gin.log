@@ -1,0 +1,51 @@
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/ping.GetPong (4 handlers)
+[GIN-debug] GET    /users                    --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.GetAllUsers (4 handlers)
+[GIN-debug] GET    /user/:id                 --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.GetUserById (4 handlers)
+[GIN-debug] GET    /user/paginate            --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.GetUsersPaginate (4 handlers)
+[GIN-debug] POST   /user/                    --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.AddNewUser (4 handlers)
+[GIN-debug] PATCH  /user/:id                 --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.UpdateById (4 handlers)
+[GIN-debug] DELETE /user/:id                 --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.DeleteById (4 handlers)
+[GIN-debug] GET    /books                    --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/book_controller.GetAllBooks (4 handlers)
+[GIN-debug] POST   /file/                    --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/file_controller.HandleUploadFile (5 handlers)
+[GIN-debug] POST   /file/middleware          --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/file_controller.SendStatus (6 handlers)
+[GIN-debug] DELETE /file/:filename           --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/file_controller.HandleRemoveFile (5 handlers)
+[GIN-debug] POST   /login                    --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/ping.GetPong (4 handlers)
+[GIN-debug] GET    /users                    --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.GetAllUsers (4 handlers)
+[GIN-debug] GET    /user/:id                 --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.GetUserById (4 handlers)
+[GIN-debug] GET    /user/paginate            --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.GetUsersPaginate (4 handlers)
+[GIN-debug] POST   /user/                    --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.AddNewUser (4 handlers)
+[GIN-debug] PATCH  /user/:id                 --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.UpdateById (4 handlers)
+[GIN-debug] DELETE /user/:id                 --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.DeleteById (4 handlers)
+[GIN-debug] GET    /books                    --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/book_controller.GetAllBooks (4 handlers)
+[GIN-debug] POST   /file/                    --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/file_controller.HandleUploadFile (5 handlers)
+[GIN-debug] POST   /file/middleware          --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/file_controller.SendStatus (6 handlers)
+[GIN-debug] DELETE /file/:filename           --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/file_controller.HandleRemoveFile (5 handlers)
+[GIN-debug] POST   /login                    --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/ping.GetPong (4 handlers)
+[GIN-debug] GET    /users                    --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.GetAllUsers (4 handlers)
+[GIN-debug] GET    /user/:id                 --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.GetUserById (4 handlers)
+[GIN-debug] GET    /user/paginate            --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.GetUsersPaginate (4 handlers)
+[GIN-debug] POST   /user/                    --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.AddNewUser (4 handlers)
+[GIN-debug] PATCH  /user/:id                 --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.UpdateById (4 handlers)
+[GIN-debug] DELETE /user/:id                 --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/user_controller.DeleteById (4 handlers)
+[GIN-debug] GET    /books                    --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/book_controller.GetAllBooks (4 handlers)
+[GIN-debug] POST   /file/                    --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/file_controller.HandleUploadFile (5 handlers)
+[GIN-debug] POST   /file/middleware          --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/file_controller.SendStatus (6 handlers)
+[GIN-debug] DELETE /file/:filename           --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/file_controller.HandleRemoveFile (5 handlers)
+[GIN-debug] POST   /login                    --> github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
