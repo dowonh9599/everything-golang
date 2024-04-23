@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	dict "github.com/dowonh9599/go-basics/GO_E2_dictionary"
-	"github.com/dowonh9599/go-basics/GO_T5_goroutineAndChannel"
+	dict "github.com/dowonh9599/everything-series/everything-golang/GO_E2_dictionary"
+	"github.com/dowonh9599/everything-series/everything-golang/GO_T5_goroutineAndChannel"
 )
 
 // Go-Exercise 2: Dictionary main function
