@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/controllers/file_controller"
-	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/middleware"
+	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_gorm_setup/controllers/file_controller"
+	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_gorm_setup/middleware"
 	"github.com/gin-gonic/gin"
 )
 

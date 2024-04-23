@@ -2,7 +2,7 @@ package database
 
 import (
 	"fmt"
-	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/configs/db_config"
+	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_gorm_setup/configs/db_config"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

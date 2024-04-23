@@ -2,7 +2,7 @@ package utils
 
 import (
 	"fmt"
-	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/configs/app_config"
+	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_gorm_setup/configs/app_config"
 	"github.com/gin-gonic/gin"
 	"log"
 	"math/rand"
@@ -15,8 +15,6 @@ import (
 var charSet = []byte("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
 
 func RandomString(n int) string {
-	rand.Seed(time.Now().UnixMilli())
-
 	str := make([]byte, n)
 	for i := range str {
 		str[i] = charSet[rand.Intn(len(charSet))]

@@ -2,7 +2,7 @@ package utils
 
 import (
 	"fmt"
-	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/configs/app_config"
+	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_gorm_setup/configs/app_config"
 	"github.com/golang-jwt/jwt/v5"
 )
 

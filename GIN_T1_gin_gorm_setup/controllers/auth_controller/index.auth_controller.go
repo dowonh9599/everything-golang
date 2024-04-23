@@ -1,10 +1,10 @@
 package auth_controller
 
 import (
-	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/database"
-	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/models"
-	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/requests"
-	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/utils"
+	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_gorm_setup/database"
+	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_gorm_setup/models"
+	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_gorm_setup/requests"
+	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_gorm_setup/utils"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
 	"net/http"

@@ -1,10 +1,10 @@
 package user_controller
 
 import (
-	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/database"
-	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/models"
-	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/requests"
-	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/responses"
+	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_gorm_setup/database"
+	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_gorm_setup/models"
+	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_gorm_setup/requests"
+	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_gorm_setup/responses"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"strconv"

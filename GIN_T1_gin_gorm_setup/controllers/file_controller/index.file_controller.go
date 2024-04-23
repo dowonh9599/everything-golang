@@ -2,8 +2,8 @@ package file_controller
 
 import (
 	"fmt"
-	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/constant"
-	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_setup/utils"
+	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_gorm_setup/constant"
+	"github.com/dowonh9599/everything-series/everything-golang/GIN_T1_gin_gorm_setup/utils"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
 	"net/http"
